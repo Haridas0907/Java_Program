@@ -15,5 +15,79 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar" sourcepath="C:/Users/chava/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.ow2.asm"/>
+			<attribute name="maven.artifactId" value="asm"/>
+			<attribute name="maven.version" value="9.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.jar" sourcepath="C:/Users/chava/.m2/repository/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.github.andrewoma.dexx"/>
+			<attribute name="maven.artifactId" value="dexx-collections"/>
+			<attribute name="maven.version" value="0.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/org/hibernate/hibernate-core/5.4.15.Final/hibernate-core-5.4.15.Final.jar" sourcepath="C:/Users/chava/.m2/repository/org/hibernate/hibernate-core/5.4.15.Final/hibernate-core-5.4.15.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.hibernate"/>
+			<attribute name="maven.artifactId" value="hibernate-core"/>
+			<attribute name="maven.version" value="5.4.15.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar" sourcepath="C:/Users/chava/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.vavr"/>
+			<attribute name="maven.artifactId" value="vavr"/>
+			<attribute name="maven.version" value="0.10.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar" sourcepath="C:/Users/chava/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.ow2.asm"/>
+			<attribute name="maven.artifactId" value="asm"/>
+			<attribute name="maven.version" value="9.3"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="antlr"/>
+			<attribute name="maven.artifactId" value="antlr"/>
+			<attribute name="maven.version" value="2.7.7"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/org/hibernate/hibernate-core/5.4.30.Final/hibernate-core-5.4.30.Final.jar" sourcepath="C:/Users/chava/.m2/repository/org/hibernate/hibernate-core/5.4.30.Final/hibernate-core-5.4.30.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.hibernate"/>
+			<attribute name="maven.artifactId" value="hibernate-core"/>
+			<attribute name="maven.version" value="5.4.30.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chava/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar" sourcepath="C:/Users/chava/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-beans"/>
+			<attribute name="maven.version" value="5.0.5.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

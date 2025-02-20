@@ -29,7 +29,7 @@ class Employee2 {
 		this.name = name;
 		Lastname = lastname;
 		Salary = salary;
-		this.age = age; 
+		this.age = age;
 	}
 
 	public String getName() {
@@ -77,7 +77,7 @@ public class EmployeeSal {
 		list.add(new Employee2("Hari", "Chavan", 52000, 25));
 		list.add(new Employee2("Vikas", "Kale", 60000, 25));
 		list.add(new Employee2("Chetan", "Udhane", 70000, 25));
-		list.add(new Employee2("Santosh", "Udhane", 100000, 26));
+		list.add(new Employee2("Santosh", "Pisule", 100000, 26));
 		list.add(new Employee2("Afsar", "Shaikh", 90000, 28));
 		System.out.println(list);
 
@@ -88,7 +88,7 @@ public class EmployeeSal {
 		System.out.println(sortedBySal);
 
 		// Salary Descending order
-		List<Employee2> sortedBySal1 = list.stream(). sorted(Comparator.comparingLong(Employee2::getSalary).reversed())
+		List<Employee2> sortedBySal1 = list.stream().sorted(Comparator.comparingLong(Employee2::getSalary).reversed())
 				.collect(Collectors.toList());
 		System.out.println(sortedBySal1);
 

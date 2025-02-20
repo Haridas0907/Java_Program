@@ -14,9 +14,9 @@ public class StringUpperCase {
 //
 //		System.out.println(update);
 //	}
-		String[] s = { "Java", "Python", "CSS" };
+		String[] s = { "Java", "Python", "CSS","Aws"  };
 		List<String> s2 = Arrays.asList(s);
-		List<String> update = s2.stream().map(x -> x.toUpperCase()).collect(Collectors.toList());
+		List<String> update = s2.stream().filter(x->x.startsWith("A")).map(x -> x.toUpperCase()).collect(Collectors.toList());
 		System.out.println(update);
 
 	}

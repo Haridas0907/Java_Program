@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -58,7 +59,7 @@ public class EmployeeFilter {
                 //.filter(e -> (e.getAge() > 25 || e.getAge() == 25)) // Include employees aged 25 and above
                 .peek(e -> {
                     if (e.getAge() > 25) {
-                        e.setSalary(e.getSalary() * 0.75); // Increase salary by 0.10% for employees aged >25
+                        e.setSalary(e.getSalary() * 25); // Increase salary by 0.10% for employees aged >25
                     }
                 })
                 .collect(Collectors.toList());
