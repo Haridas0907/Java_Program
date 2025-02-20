@@ -11,5 +11,6 @@ public class Alphanumeric {
 		list.stream().filter(s->s.matches("\\d+")).forEach(System.out::println);
 		list.stream().filter(s->s.matches(".*[a-zA-Z]")).forEach(System.out::println);
 
+		
 	}
 }
