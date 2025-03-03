@@ -7,10 +7,8 @@ import java.util.stream.Collectors;
 public class Alphanumeric {
 	public static void main(String[] args) {
 
-		List<String> list = Arrays.asList("ABC", "DEF", "12", "43", "40", "79", "GHI", "ABC123");
-		list.stream().filter(s->s.matches("\\d+")).forEach(System.out::println);
-		list.stream().filter(s->s.matches(".*[a-zA-Z]")).forEach(System.out::println);
-
-		
+		List<String> list = Arrays.asList("ABC", "DEF", "12", "43", "79", "GHI", "ABC123");
+		list.stream().filter(s -> s.matches("\\d+")).forEach(System.out::println);
+		list.stream().filter(s -> s.matches(".*[a-zA-z]*")).forEach(System.out::println);
 	}
 }

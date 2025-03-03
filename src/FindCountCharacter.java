@@ -6,12 +6,10 @@ import java.util.stream.Collectors;
 
 public class FindCountCharacter {
 	public static void main(String[] args) {
-		String str = "Vedansh Haridas Chavhan";
+		String str = "Vedansh Haridas Chavan";
 		str = str.toLowerCase();
-
 		Map<String, Long> result = Arrays.stream(str.replace(" ", "").split(""))
 				.collect(Collectors.groupingBy(s -> s, LinkedHashMap::new, Collectors.counting()));
 		System.out.println(result);
-
 	}
 }

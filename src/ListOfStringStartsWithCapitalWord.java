@@ -7,7 +7,6 @@ public class ListOfStringStartsWithCapitalWord {
 		List<String> list = Arrays.asList("Hello", "Hari", "vedansh", "mangal", "Vikas", "gauri", "Dipali");
 
 		list.stream().filter(s -> Character.isUpperCase(s.charAt(0))).forEach(System.out::println);
-
 	}
 
 }

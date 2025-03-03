@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 public class FilterIntegersStartingWith1 {
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(111, 211, 65, 121, 654, 214, 221);
-		list.stream().filter(s -> String.valueOf(s).startsWith("1")).collect(Collectors.toList())
-				.forEach(System.out::println);
+		list.stream().filter(s -> String.valueOf(s).startsWith("1")).forEach(System.out::println);
 	}
 }

@@ -37,10 +37,10 @@ public class CustomerLocationCounter {
 				new Customer11(4, "David", 35, "Chicago"), new Customer11(5, "Eve", 22, "Chicago"),
 				new Customer11(6, "Frank", 30, "Chicago"));
 
-		Map<String, Long> customerLocationCount = customers.stream()
+		Map<String, Long> customerLocationcount = customers.stream()
 				.collect(Collectors.groupingBy(Customer11::getLocation, Collectors.counting()));
-		customerLocationCount.forEach((location,count)->{
-			System.out.println("Cutsomer >Location :" + location + " : " +count);
+		customerLocationcount.forEach((location, count) -> {
+			System.out.println("Customer Location :" + location + ": " + count);
 		});
 
 	}

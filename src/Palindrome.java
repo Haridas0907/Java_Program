@@ -16,10 +16,9 @@ public class Palindrome {
 		} else {
 			System.out.println("Given String is a not Palindrome:" + rev);
 		}
-
-		boolean isPalindrome = str
-				.equals(str.chars().mapToObj(c -> String.valueOf((char) c)).reduce("", (a, b) -> b + a));
-
-		System.out.println("isPalindrome :" + str + " " + isPalindrome);
+		
+		
+		boolean isPalindrome=str.equals(str.chars().mapToObj(c->String.valueOf((char)c)).reduce("",(a,b)->b+a));
+		System.out.println("isPalindrome :"+str+" "+isPalindrome);
 	}
 }

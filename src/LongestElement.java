@@ -13,8 +13,8 @@ public class LongestElement {
 
 		
 		String str="my names is haridas";
-		String result=Arrays.stream(str.split(" ")).sorted((s1,s2)->s2.length()-s1.length()).findFirst().get();
-				//max(Comparator.comparing(String::length)).get();
+		String result=Arrays.stream(str.split(" ")).//sorted((s1,s2)->s2.length()-s1.length()).findFirst().get();
+				max(Comparator.comparing(String::length)).get();
 		System.out.println(result);
 		
 	}

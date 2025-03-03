@@ -19,11 +19,12 @@ public class GroupingKeyAndValue {
 		map.put(7, "y");
 
 		// Grouping keys by their values using Java 8 Streams
-		Map<String, List<Integer>> groupedKeys = map.entrySet().stream().collect(
-				Collectors.groupingBy(Map.Entry::getValue, Collectors.mapping(Map.Entry::getKey, Collectors.toList())));
+		Map<String,List<Integer>>groupedKeys=map.entrySet().stream().collect(Collectors.groupingBy(Map.Entry::getValue,Collectors.mapping(Map.Entry::getKey, Collectors.toList())));
+		
 		// Printing the grouped keys
-		groupedKeys.forEach((value, keys) -> {
-			System.out.println(value + " - " + keys);
+		groupedKeys.forEach((key,value)->{
+			System.out.println(key + " " + value + " ");
 		});
+		
 	}
 }
